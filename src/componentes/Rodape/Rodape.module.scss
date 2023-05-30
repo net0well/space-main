@@ -1,0 +1,22 @@
+@import "../../styles/variaveis";
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $azul-rodape;
+  height: 80px;
+
+  &__imagem {
+    img {
+      margin-left: 30px;
+    }
+  }
+
+  &__descricao{
+    margin-right: 30px;
+    p {
+      color: $cor-do-texto;
+    }
+  }
+}
